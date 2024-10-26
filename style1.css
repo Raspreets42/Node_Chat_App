@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.nav-container{
+    background-color:rgb(133, 181, 253);
+    border-radius: 2px;
+
+    width: 50vmax;
+    padding: 0.5vmax;
+    margin: 0.2vmax auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 8vmax;
+    height: 5vmax;
+    margin: auto 0.5vmax;
+}
+
+.cont{
+    border: 2px solid black;
+    background-color: rgb(133, 181, 253);
+    border-radius: 5px;
+
+    width: 50vmax;
+    height: 32vmax;
+    overflow-y: scroll;
+
+    padding: 0.5vmax;
+    margin: 0.2vmax auto;
+}
+
+.message {
+    background-color: rgb(252, 242, 230);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+
+    font-size: 1.2vmax;
+    
+    width: 20vmax;
+
+    padding: 0.3vmax 1vmax;
+    margin-bottom: 1vmax;
+}
+
+.left{
+    float: left;
+    clear: both;
+    border-top-left-radius: 1vmax;
+}
+
+.right{
+    float: right;
+    clear: both;
+    border-top-right-radius: 1vmax;
+}
+
+.joining{
+    font-weight: bold;
+    font-style: italic;
+    
+    margin-bottom: 1vmax;
+}
+
+.sendcontainer{
+    background-color: rgb(133, 181, 253);
+    border: 2px solid black;
+    border-radius: 5px;
+
+    width: 50vmax;
+    text-align: center;
+    
+    margin: 0.2vmax auto;
+    padding: 0.5vmax;
+}
+
+#inputmessage{
+    outline: none;
+    border-radius: 5px;
+
+    font-size: 1.2vmax;
+    
+    padding: 0.8vmax;
+    width: 40vmax;
+}
+#bt{
+    background-color: rgb(1, 99, 1);
+    border-radius: 5px;
+    
+    font-size: 1vmax;
+    font-weight: bold;
+
+    width: 5vmax;
+    padding: 0.5vmax;
+    margin: 0.5vmax;
+}
+
+#bt:hover{
+    background-color: rgb(26, 199, 26);
+}

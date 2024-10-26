@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="http://localhost:9000/socket.io/socket.io.js"></script> <!-- connecting client and server -->
+
+    <script defer src="/server/client.js"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="/style1.css">
+
+    <title>LetsChat - A Chatting Room</title>
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <img src="client/chatpic1.png" alt="" id='logo'/>
+    </div>
+
+    <div class="container cont">
+        
+    </div>
+
+    <div class="sendcontainer">
+        <form action="" id="sending-message">
+            <input type="text" id="inputmessage" placeholder="Enter Messege Here...">
+            <!-- <textarea id="inputsend" rows="1" placeholder="Enter Messege Here..."></textarea> -->
+            <button id="bt" class="btn btn-outline-primary"> Send </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
